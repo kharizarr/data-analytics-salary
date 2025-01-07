@@ -86,7 +86,7 @@ GROUP BY
 HAVING
 	avg_sal_in_usd >= 20000;
 
--- 6. Year with the highest salary increase from mid to senior (for full-time data analyst related jobs)
+-- 6. Year with the highest salary increase from mid to expert (for full-time data analyst related jobs)
 WITH ds_1 AS (
 	SELECT
 		work_year,
