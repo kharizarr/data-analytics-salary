@@ -123,7 +123,7 @@ SELECT
 	t_year.work_year,
 	ds_1.sal_in_usd_ex,
 	ds_2.sal_in_usd_mi,
-	ds_1.sal_in_usd_ex - ds_2.sal_in_usd_mi differences
+	ds_1.sal_in_usd_ex - ds_2.sal_in_usd_mi AS differences
 FROM
 	t_year
 	LEFT JOIN ds_1 ON ds_1.work_year = t_year.work_year
