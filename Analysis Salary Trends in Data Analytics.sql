@@ -1,6 +1,6 @@
-SELECT *FROM ds_salaries;
+SELECT * FROM ds_salaries;
 
--- 1. Ensure there's no NULL data?\
+-- 1. Ensure there's no NULL data?
 SELECT
 	COUNT(*) AS total_null
 FROM
